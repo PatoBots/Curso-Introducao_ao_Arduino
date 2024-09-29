@@ -1,5 +1,5 @@
 // Define o pino do LED
-int ledPin = 13; 
+int ledPin = 6; 
 
 void setup() {
   // Configura o pino do LED como saída
