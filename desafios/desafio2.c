@@ -3,7 +3,8 @@ int ledGreen = 12;
 int ledBlue = 11;
 
 int buttonPin = 7;  
-int buttonState = 0;    
+int buttonState = 0; 
+
 void setup() {
     pinMode(ledRed, OUTPUT);  
     pinMode(ledGreen, OUTPUT); 
@@ -28,7 +29,5 @@ void loop() {
         }else{
             digitalWrite(ledRed, HIGH);
         }
-        delay(150)
-        
     } 
 }
