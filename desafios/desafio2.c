@@ -17,17 +17,21 @@ void loop() {
     
     if (buttonState == HIGH) {  
         if(digitalRead(ledBlue) == HIGH){
-            digitalWrite(ledBlue, LOW); 
+            digitalWrite(ledBlue, LOW);
+          	delay(500);
         }
         else if(digitalRead(ledGreen) == HIGH){
             digitalWrite(ledGreen, LOW); 
             digitalWrite(ledBlue, HIGH); 
+            delay(500);
         }
         else if(digitalRead(ledRed) == HIGH){
             digitalWrite(ledRed, LOW); 
             digitalWrite(ledGreen, HIGH);
+            delay(500);
         }else{
             digitalWrite(ledRed, HIGH);
+            delay(500);
         }
     } 
 }
